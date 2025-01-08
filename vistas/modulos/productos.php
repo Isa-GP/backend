@@ -151,7 +151,8 @@ MODAL AGREGAR PRODUCTO
                     
                   
 
-                    <option value="fisico">Físico</option>            
+                    <option value="fisico">Físico</option>    
+                             
     
                   </select>
 
@@ -181,7 +182,7 @@ MODAL AGREGAR PRODUCTO
               SUBIR MULTIMEDIA DE PRODUCTO FÍSICO
               ======================================-->
               
-              <div class="multimediaFisica needsclick dz-clickable" style="display:none">
+              <div class="multimediaFisica needsclick dz-clickable" >
 
                 <div class="dz-message needsclick">
                   
@@ -429,7 +430,7 @@ MODAL AGREGAR PRODUCTO
 
               <p class="help-block">Tamaño recomendado 1280px * 720px <br> Peso máximo de la foto 2MB</p>
 
-              <img src="vistas/img/cabeceras/default/default.jpg" class="img-thumbnail previsualizarPortada" width="100%">
+
 
             </div>
 
