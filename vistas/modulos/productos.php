@@ -297,16 +297,19 @@ MODAL AGREGAR PRODUCTO
               <div class="panel">DETALLES</div>
 
               <!-- TALLA -->
-
+             
                 <div class="form-group row">
 
                   <div class="col-xs-3">
-                    <input class="form-control input-lg" type="text" value="Presentacion" readonly>
+                    <input class="form-control " type="text" value="Presentacion" readonly>
                   </div>
 
                   <div class="col-xs-9">
                     <input class="form-control input-lg tagsInput detalleTalla" data-role="tagsinput" type="text" placeholder="Separe valores con coma">
                   </div>
+                  
+
+                
 
               </div>
 
@@ -317,12 +320,11 @@ MODAL AGREGAR PRODUCTO
 
               </div>
 
-              <!-- MARCA 
 
               <div class="form-group row">
 
                 <div class="col-xs-3">
-                  <input class="form-control input-lg" type="text" value="Marca" readonly>
+                  <input class="form-control input-lg" type="text" value="Olor" readonly>
                 </div>
 
                 <div class="col-xs-9">
@@ -330,7 +332,7 @@ MODAL AGREGAR PRODUCTO
                 </div>
 
               </div>
-              -->
+             
 
             </div> 
 
@@ -839,7 +841,7 @@ MODAL EDITAR PRODUCTO
                 <div class="form-group row">
 
                   <div class="col-xs-3">
-                    <input class="form-control input-lg" type="text" value="Presentacion" readonly>
+                    <input class="form-control " type="text" value="Presentacion" readonly>
                   </div>
 
                   <div class="col-xs-9 editarTalla">
@@ -862,20 +864,20 @@ MODAL EDITAR PRODUCTO
 
               </div>
               -->
-
-              <!-- MARCA 
+            
+             
 
               <div class="form-group row">
 
                 <div class="col-xs-3">
-                  <input class="form-control input-lg" type="text" value="Marca" readonly>
+                  <input class="form-control input-lg" type="text" value="Olor" readonly>
                 </div>
 
                 <div class="col-xs-9 editarMarca">
                   </div>
 
               </div>
-              -->
+              
 
             </div> 
 
