@@ -254,7 +254,7 @@ class TablaProductos{
 					"'.$productos[$i]["ruta"].'",
 					"'.$estado.'",
 					"'.$productos[$i]["tipo"].'",
-					"'.$cabeceras["descripcion"].'",
+					"'. trim(preg_replace('/[\r\n]+/', ' ',$cabeceras["descripcion"])).'",
 				  	"'.$cabeceras["palabrasClaves"].'",
 				  	"'.$imagenPortada.'",
 				  	"'.$imagenPrincipal.'",

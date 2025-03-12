@@ -309,22 +309,27 @@ MODAL AGREGAR PRODUCTO
                   </div>
                   
 
-                
-
               </div>
 
               <!-- COLOR -->
 
               <div class="form-group row">
 
+                <div class="col-xs-3">
+                  <input class="form-control input-lg" type="text" value="Color" readonly>
+                </div>
 
-              </div>
+                <div class="col-xs-9">
+                    <input class="form-control input-lg tagsInput detalleColor" data-role="tagsinput" type="text" placeholder="Separe valores con coma">
+                </div>
+
+                </div>
 
 
               <div class="form-group row">
 
                 <div class="col-xs-3">
-                  <input class="form-control input-lg" type="text" value="Olor" readonly>
+                  <input class="form-control input-lg" type="text" value="Fragancia" readonly>
                 </div>
 
                 <div class="col-xs-9">
@@ -332,6 +337,8 @@ MODAL AGREGAR PRODUCTO
                 </div>
 
               </div>
+
+              
              
 
             </div> 
@@ -596,6 +603,8 @@ MODAL AGREGAR PRODUCTO
           
           </div>
 
+          
+
         </div>
 
         <!--=====================================
@@ -850,30 +859,31 @@ MODAL EDITAR PRODUCTO
 
               </div>
 
-              <!-- COLOR 
+              <!-- COLOR  -->
 
               <div class="form-group row">
 
                 <div class="col-xs-3">
-                  <input class="form-control input-lg" type="text" value="Color" readonly>
+                  <input class="form-control " type="text" value="Color" readonly>
                 </div>
 
                 <div class="col-xs-9 editarColor">
-                    <input class="form-control input-lg tagsInput detalleColor" data-role="tagsinput" type="text" placeholder="Separe valores con coma"> 
+                    <input class="form-control  tagsInput detalleColor" data-role="tagsinput" type="text" placeholder="Separe valores con coma"> 
                 </div>
 
               </div>
-              -->
+             
             
              
 
               <div class="form-group row">
 
                 <div class="col-xs-3">
-                  <input class="form-control input-lg" type="text" value="Olor" readonly>
+                  <input class="form-control input-lg" type="text" value="Fragancia" readonly>
                 </div>
 
                 <div class="col-xs-9 editarMarca">
+                <input class="form-control  tagsInput detalleMarca" data-role="tagsinput" type="text" placeholder="Separe valores con coma"> 
                   </div>
 
               </div>

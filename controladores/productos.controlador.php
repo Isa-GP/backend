@@ -59,7 +59,7 @@ class ControladorProductos{
 			list($ancho, $alto) = getimagesize($datos["tmp_name"]);	
 
 			$nuevoAncho = 1000;
-			$nuevoAlto = 1000;
+			$nuevoAlto = intval(($alto / $ancho) * $nuevoAncho); // Redondeamos el valor para evitar errores
 
 			/*=============================================
 			CREAMOS EL DIRECTORIO DONDE VAMOS A GUARDAR LA FOTO DE LA MULTIMEDIA
@@ -218,9 +218,8 @@ class ControladorProductos{
 
 					list($ancho, $alto) = getimagesize($datos["fotoPrincipal"]["tmp_name"]);	
 
-					$nuevoAncho = 400;
-					$nuevoAlto = 450;
-
+					$nuevoAncho = 400; // Definimos el nuevo ancho
+				  $nuevoAlto = intval(($alto / $ancho) * $nuevoAncho); // Mantener la proporción
 					/*=============================================
 					DE ACUERDO AL TIPO DE IMAGEN APLICAMOS LAS FUNCIONES POR DEFECTO DE PHP
 					=============================================*/
@@ -504,7 +503,7 @@ class ControladorProductos{
 					list($ancho, $alto) = getimagesize($datos["fotoPortada"]["tmp_name"]);	
 
 					$nuevoAncho = 1280;
-					$nuevoAlto = 720;
+					$nuevoAlto = intval(($alto / $ancho) * $nuevoAncho); // Redondeamos el valor para evitar errores
 
 
 					/*=============================================
@@ -577,7 +576,7 @@ class ControladorProductos{
 					list($ancho, $alto) = getimagesize($datos["fotoPrincipal"]["tmp_name"]);	
 
 					$nuevoAncho = 400;
-					$nuevoAlto = 450;
+					$nuevoAlto = intval(($alto / $ancho) * $nuevoAncho); // Redondeamos el valor para evitar errores
 
 
 					/*=============================================
@@ -655,7 +654,7 @@ class ControladorProductos{
 					list($ancho, $alto) = getimagesize($datos["fotoOferta"]["tmp_name"]);
 
 					$nuevoAncho = 640;
-					$nuevoAlto = 430;
+					$nuevoAlto = 	$nuevoAlto = intval(($alto / $ancho) * $nuevoAncho); // Redondeamos el valor para evitar errores
 
 
 					/*=============================================

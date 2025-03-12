@@ -145,7 +145,7 @@ $(".tablaPerfiles").on("click", ".btnEliminarPerfil", function(){
 
   swal({
     title: '¿Está seguro de borrar el perfil?',
-    text: "¡Si no lo está puede cancelar la accíón!",
+    text: "¡Si no lo está puede cancelar la acción!",
     type: 'warning',
     showCancelButton: true,
     confirmButtonColor: '#3085d6',
